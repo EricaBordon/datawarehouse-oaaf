@@ -1,0 +1,100 @@
+=====================================================================
+DATAWAREHOUSE OAAF — Oficina de Análisis Antiterrorista de Fronteras
+Hito H3 — Dataset sintético y proceso ETL
+Cátedra Datawarehouse (22891) · Uninorte · Lic. Walter Romero
+Alumna: Érica Bordón
+Motor: DuckDB 1.5 · ETL: SQL + Python 3.12 / pandas · Cliente: DBeaver
+=====================================================================
+
+ESTRUCTURA DEL PROYECTO (carpeta C:\DW_OAAF)
+---------------------------------------------------------------------
+  01_ddl_dw_oaaf.sql                    H2: crea el modelo (10 tablas)
+  02_carga_dim_tiempo_y_catalogos.sql   H2: calendario y catálogos fijos
+  03_prueba_modelo.sql                  H2: prueba del modelo (opcional)
+
+  fuentes\                              Las 3 fuentes heterogéneas
+    movimientos_migratorios.csv           51.636 filas (CSV)
+    alertas_inspeccion.json               2.022 alertas (JSON anidado)
+    catalogo_puestos.xlsx                 9 filas, 8 puestos (Excel)
+    catalogo_puestos.csv                  mismo catálogo (contingencia)
+    defectos_inyectados.md                anexo: defectos deliberados
+
+  generador\generar_datos_oaaf.py       Genera las fuentes (semilla fija)
+
+  etl\                                  Proceso ETL, en orden:
+    10_staging.sql                        Extracción tal cual (todo texto)
+    20_perfilado.sql                      Medición de calidad
+    30_transformacion.sql                 Limpieza, estandarización, cuarentena
+    40_carga_dimensiones.sql              SCD1 puesto, SCD2 viajero
+    50_carga_hechos.sql                   Hechos de movimientos y alertas
+    60_controles.sql                      Conciliación y cierre
+    etl_oaaf.py                           Ejecuta 10 a 60 de una vez
+
+CÓMO EJECUTAR
+---------------------------------------------------------------------
+  Requisito: base dw_oaaf.duckdb con los scripts 01 y 02 ya ejecutados.
+
+  Opción A — DBeaver (paso a paso)
+    Abrir cada script de la carpeta etl\ en orden (10, 20, 30, 40, 50, 60),
+    asignarle la conexión dw_oaaf.duckdb y ejecutarlo completo
+    (Editor SQL -> Ejecutar script). En el 10 revisar la ruta de la
+    línea SET VARIABLE ruta. Si "INSTALL excel" falla por falta de
+    internet, usar el bloque de contingencia CSV que está debajo.
+
+  Opción B — Python (todo junto)
+    pip install duckdb pandas openpyxl
+    Cerrar la conexión en DBeaver y ejecutar desde C:\DW_OAAF:
+        python etl\etl_oaaf.py
+
+  El ETL es idempotente: se puede ejecutar varias veces y el resultado
+  es el mismo. Cada corrida queda registrada en meta.ejecucion.
+
+RESULTADOS ESPERADOS (verificados en DuckDB 1.5)
+---------------------------------------------------------------------
+  Movimientos: 51.636 leídos = 50.956 cargados + 680 en cuarentena
+               (650 duplicados + 30 con fecha no convertible)
+  Alertas:      2.022 leídas =  1.999 cargadas +  23 en cuarentena
+               (23 duplicadas)
+  Puestos:      9 filas en el Excel -> 8 puestos en la dimensión
+  dim_viajero:  12.064 versiones de 11.650 viajeros;
+                372 viajeros cambiaron de categoría (SCD tipo 2)
+  Script 60:    9 controles de conciliación, todos "OK"
+
+REGLAS DE CALIDAD APLICADAS (script 30)
+---------------------------------------------------------------------
+  RECHAZAR (cuarentena, con motivo):
+    - Fila duplicada (mismo id_movimiento / id_alerta) -> DUPLICADO
+    - Fecha vacía o imposible (31/02, mes 13...)        -> FECHA_INVALIDA
+    - Sentido desconocido                               -> SENTIDO_INVALIDO
+  CORREGIR (forma correcta conocida):
+    - Fechas en 3 formatos -> un solo TIMESTAMP
+    - Puesto escrito como texto ("CDE", " ciudad del este ") -> código
+    - Sentido E/S/ING/EGR -> ENTRADA/SALIDA
+    - Nacionalidad como nombre o minúsculas -> código ISO
+    - Mayúsculas, tildes y espacios en motivo, transporte y catálogo
+    - Coordenadas con coma decimal; ciudad "CDE"; departamento sin tilde
+    - Puesto repetido en el Excel: gana la fila más reciente (SCD tipo 1)
+  CONSERVAR CON MIEMBRO "NO DEFINIDO" (sk = -1):
+    - Puesto huérfano (180), nacionalidad vacía o inválida (295),
+      motivo vacío (356), código de viajero vacío (70)
+  ANULAR LA MÉTRICA (se conserva el movimiento):
+    - minutos_control <= 0 o >= 600 -> NULL (135 casos)
+  ALERTAS:
+    - Resultado de inspección nulo -> "NO INFORMADO" (no cuenta como
+      confirmada)
+    - Movimiento huérfano: la alerta se carga igual; viajero y país se
+      buscan por el código del viajero
+
+MÉTRICAS DERIVADAS (script 50)
+---------------------------------------------------------------------
+  dias_permanencia: en la SALIDA de un extranjero, días desde su ENTRADA.
+  plazo_autorizado_dias: en la SALIDA se repite el plazo otorgado en la
+  ENTRADA. dias_excedidos = max(0, permanencia - plazo).
+  ind_alerta = 1 si el movimiento tiene al menos una alerta cargada.
+
+CRITERIO ÉTICO DEL DATASET
+---------------------------------------------------------------------
+  En el generador, la probabilidad de alerta depende solo del estado del
+  documento, de la conducta de viaje y de un componente aleatorio de
+  listas de vigilancia; nunca de la nacionalidad. Los viajeros se
+  identifican con un código seudónimo; no hay personas reales.

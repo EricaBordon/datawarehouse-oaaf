@@ -1,0 +1,10 @@
+codigo_puesto,nombre_puesto,tipo_puesto,ciudad,departamento,pais_limitrofe,dotacion_personal,latitud,longitud,fecha_actualizacion
+PC-CDE-PA,Puente de la Amistad,TERRESTRE,CDE,Alto Paraná,Brasil,9,-25.5094,-54.6006,2024-09-15
+PC-ENC-SR,Puente San Roque González de Santa Cruz,TERRESTRE, Encarnación ,Itapúa,Argentina,6,-27.3586,-55.8664,2024-09-15
+PC-ASU-AE,Aeropuerto Internacional Silvio Pettirossi,AÉREO,Luque,Central,N/A (aéreo),7,-25.24,-57.5191,2024-09-15
+PC-PJC-FS,Pedro Juan Caballero - Ponta Porã (frontera seca),TERRESTRE,Pedro Juan Caballero,Amambai,Brasil,4,-22.5531,-55.7336,2024-09-15
+PC-FAL-SI,Puente San Ignacio de Loyola (Falcón - Clorinda),terrestre,José Falcón,Presidente Hayes,Argentina,3,-25.2442,-57.6939,2024-09-15
+PC-SDG-TE,Salto del Guairá - Mundo Novo,TERRESTRE,Salto del Guairá,Canindeyú,Brasil,3,"-24,0603","-54,3083",2024-09-15
+PC-MGZ-AE,Aeropuerto Internacional Guaraní,AÉREO,Minga Guazú,Alto Parana,N/A (aéreo),2,-25.4545,-54.8427,2024-09-15
+PC-ASU-FL,Puerto Itá Enramada,FLUVIAL,Asunción,Capital,Argentina,,-25.3361,-57.6531,2024-09-15
+PC-PJC-FS,Pedro Juan Caballero - Ponta Porã (frontera seca),TERRESTRE,Pedro Juan Caballero,Amambay,Brasil,4,-22.5531,-55.7336,2025-03-10
