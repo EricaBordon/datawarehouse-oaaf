@@ -1,0 +1,16 @@
+# Base de datos local: se reconstruye con los scripts
+*.duckdb
+*.duckdb.wal
+*.wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Archivos temporales de Office y del sistema
+~$*
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
