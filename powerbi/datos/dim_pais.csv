@@ -1,0 +1,24 @@
+sk_pais,nk_pais,nombre_pais,region,es_mercosur,es_limitrofe
+-1,ND,NO DEFINIDO,NO DEFINIDO,false,false
+1,PRY,Paraguay,América del Sur,true,false
+2,ARG,Argentina,América del Sur,true,true
+3,BRA,Brasil,América del Sur,true,true
+4,BOL,Bolivia,América del Sur,true,true
+5,URY,Uruguay,América del Sur,true,false
+6,CHL,Chile,América del Sur,true,false
+7,PER,Perú,América del Sur,true,false
+8,COL,Colombia,América del Sur,true,false
+9,VEN,Venezuela,América del Sur,false,false
+10,USA,Estados Unidos,América del Norte,false,false
+11,MEX,México,América del Norte,false,false
+12,ESP,España,Europa,false,false
+13,DEU,Alemania,Europa,false,false
+14,ITA,Italia,Europa,false,false
+15,FRA,Francia,Europa,false,false
+16,CHN,China,Asia,false,false
+17,TWN,Taiwán,Asia,false,false
+18,KOR,Corea del Sur,Asia,false,false
+19,JPN,Japón,Asia,false,false
+20,LBN,Líbano,Medio Oriente,false,false
+21,ZAF,Sudáfrica,África,false,false
+22,AUS,Australia,Oceanía,false,false

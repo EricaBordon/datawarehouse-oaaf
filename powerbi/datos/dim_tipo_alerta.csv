@@ -1,0 +1,10 @@
+sk_tipo_alerta,nk_tipo_alerta,tipo_alerta,nivel_riesgo,orden_nivel,organismo_emisor,ambito_emisor
+-1,ND,NO DEFINIDO,NO DEF.,0,NO DEFINIDO,NO DEFINIDO
+1,INT-SLTD,Documento en base de documentos robados o extraviados,ALTO,3,INTERPOL,INTERNACIONAL
+2,INT-ROJ,Notificación roja (búsqueda para detención),CRÍTICO,4,INTERPOL,INTERNACIONAL
+3,ONU-SAN,Coincidencia en lista de sanciones,CRÍTICO,4,Consejo de Seguridad de la ONU,INTERNACIONAL
+4,NAC-CAP,Orden de captura vigente,ALTO,3,Poder Judicial / Policía Nacional,NACIONAL
+5,NAC-VIG,Lista de vigilancia nacional,ALTO,3,SENAD / Policía Nacional,NACIONAL
+6,DGM-DOC,Inconsistencia documental,MEDIO,2,Dirección Nacional de Migraciones,NACIONAL
+7,OAAF-PAT,Patrón de viaje irregular,MEDIO,2,OAAF (análisis interno),NACIONAL
+8,DGM-PER,Permanencia excedida en viaje anterior,BAJO,1,Dirección Nacional de Migraciones,NACIONAL

@@ -1,0 +1,8 @@
+sk_motivo,nk_motivo,motivo_viaje,plazo_referencia_dias
+-1,ND,NO DEFINIDO,
+1,TUR,Turismo,90
+2,NEG,Negocios,90
+3,TRA,Tránsito,3
+4,TRB,Trabajo,365
+5,EST,Estudio,365
+6,RES,Residencia,730

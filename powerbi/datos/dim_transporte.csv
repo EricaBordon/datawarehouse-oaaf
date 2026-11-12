@@ -1,0 +1,7 @@
+sk_transporte,nk_transporte,medio_transporte,via
+-1,ND,NO DEFINIDO,NO DEFINIDO
+1,AER,Aéreo,AÉREA
+2,TPA,Terrestre particular,TERRESTRE
+3,OMN,Ómnibus,TERRESTRE
+4,FLU,Fluvial,FLUVIAL
+5,PIE,A pie,TERRESTRE

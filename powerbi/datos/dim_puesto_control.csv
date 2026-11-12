@@ -1,0 +1,10 @@
+sk_puesto,nk_puesto,nombre_puesto,tipo_puesto,ciudad,departamento,pais_limitrofe,dotacion_personal,latitud,longitud
+-1,NO DEFINIDO,NO DEFINIDO,NO DEFINIDO,NO DEFINIDO,NO DEFINIDO,NO DEFINIDO,,,
+2,PC-CDE-PA,Puente de la Amistad,TERRESTRE,Ciudad del Este,Alto Paraná,Brasil,9,-25.509400,-54.600600
+3,PC-MGZ-AE,Aeropuerto Internacional Guaraní,AÉREO,Minga Guazú,Alto Paraná,N/A (aéreo),2,-25.454500,-54.842700
+4,PC-ASU-AE,Aeropuerto Internacional Silvio Pettirossi,AÉREO,Luque,Central,N/A (aéreo),7,-25.240000,-57.519100
+5,PC-ASU-FL,Puerto Itá Enramada,FLUVIAL,Asunción,Capital,Argentina,,-25.336100,-57.653100
+6,PC-SDG-TE,Salto del Guairá - Mundo Novo,TERRESTRE,Salto del Guairá,Canindeyú,Brasil,3,-24.060300,-54.308300
+7,PC-FAL-SI,Puente San Ignacio de Loyola (Falcón - Clorinda),TERRESTRE,José Falcón,Presidente Hayes,Argentina,3,-25.244200,-57.693900
+8,PC-ENC-SR,Puente San Roque González de Santa Cruz,TERRESTRE,Encarnación,Itapúa,Argentina,6,-27.358600,-55.866400
+9,PC-PJC-FS,Pedro Juan Caballero - Ponta Porã (frontera seca),TERRESTRE,Pedro Juan Caballero,Amambay,Brasil,4,-22.553100,-55.733600

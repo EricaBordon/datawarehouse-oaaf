@@ -1,0 +1,375 @@
+dimension,valor,anio,mes,anio_mes,movimientos,movimientos_anio_anterior,variacion_interanual_pct
+(Total),(Total),2024,10,2024-10,1671,,
+(Total),(Total),2024,11,2024-11,1943,,
+(Total),(Total),2024,12,2024-12,2561,,
+(Total),(Total),2025,1,2025-01,2652,,
+(Total),(Total),2025,2,2025-02,2149,,
+(Total),(Total),2025,3,2025-03,1867,,
+(Total),(Total),2025,4,2025-04,1941,,
+(Total),(Total),2025,5,2025-05,1920,,
+(Total),(Total),2025,6,2025-06,1729,,
+(Total),(Total),2025,7,2025-07,2292,,
+(Total),(Total),2025,8,2025-08,1997,,
+(Total),(Total),2025,9,2025-09,1827,,
+(Total),(Total),2025,10,2025-10,2189,1671,31.0
+(Total),(Total),2025,11,2025-11,2112,1943,8.7
+(Total),(Total),2025,12,2025-12,2626,2561,2.5
+(Total),(Total),2026,1,2026-01,2732,2652,3.0
+(Total),(Total),2026,2,2026-02,2355,2149,9.6
+(Total),(Total),2026,3,2026-03,1933,1867,3.5
+(Total),(Total),2026,4,2026-04,2004,1941,3.2
+(Total),(Total),2026,5,2026-05,1964,1920,2.3
+(Total),(Total),2026,6,2026-06,1977,1729,14.3
+(Total),(Total),2026,7,2026-07,2442,2292,6.5
+(Total),(Total),2026,8,2026-08,2129,1997,6.6
+(Total),(Total),2026,9,2026-09,1944,1827,6.4
+Motivo,Estudio,2024,10,2024-10,43,,
+Motivo,Estudio,2024,11,2024-11,54,,
+Motivo,Estudio,2024,12,2024-12,67,,
+Motivo,Estudio,2025,1,2025-01,56,,
+Motivo,Estudio,2025,2,2025-02,68,,
+Motivo,Estudio,2025,3,2025-03,48,,
+Motivo,Estudio,2025,4,2025-04,49,,
+Motivo,Estudio,2025,5,2025-05,31,,
+Motivo,Estudio,2025,6,2025-06,31,,
+Motivo,Estudio,2025,7,2025-07,63,,
+Motivo,Estudio,2025,8,2025-08,59,,
+Motivo,Estudio,2025,9,2025-09,56,,
+Motivo,Estudio,2025,10,2025-10,46,43,7.0
+Motivo,Estudio,2025,11,2025-11,54,54,0.0
+Motivo,Estudio,2025,12,2025-12,67,67,0.0
+Motivo,Estudio,2026,1,2026-01,78,56,39.3
+Motivo,Estudio,2026,2,2026-02,62,68,-8.8
+Motivo,Estudio,2026,3,2026-03,64,48,33.3
+Motivo,Estudio,2026,4,2026-04,63,49,28.6
+Motivo,Estudio,2026,5,2026-05,49,31,58.1
+Motivo,Estudio,2026,6,2026-06,44,31,41.9
+Motivo,Estudio,2026,7,2026-07,57,63,-9.5
+Motivo,Estudio,2026,8,2026-08,55,59,-6.8
+Motivo,Estudio,2026,9,2026-09,46,56,-17.9
+Motivo,NO DEFINIDO,2024,10,2024-10,10,,
+Motivo,NO DEFINIDO,2024,11,2024-11,15,,
+Motivo,NO DEFINIDO,2024,12,2024-12,13,,
+Motivo,NO DEFINIDO,2025,1,2025-01,14,,
+Motivo,NO DEFINIDO,2025,2,2025-02,19,,
+Motivo,NO DEFINIDO,2025,3,2025-03,11,,
+Motivo,NO DEFINIDO,2025,4,2025-04,12,,
+Motivo,NO DEFINIDO,2025,5,2025-05,6,,
+Motivo,NO DEFINIDO,2025,6,2025-06,13,,
+Motivo,NO DEFINIDO,2025,7,2025-07,13,,
+Motivo,NO DEFINIDO,2025,8,2025-08,20,,
+Motivo,NO DEFINIDO,2025,9,2025-09,14,,
+Motivo,NO DEFINIDO,2025,10,2025-10,15,10,50.0
+Motivo,NO DEFINIDO,2025,11,2025-11,18,15,20.0
+Motivo,NO DEFINIDO,2025,12,2025-12,18,13,38.5
+Motivo,NO DEFINIDO,2026,1,2026-01,23,14,64.3
+Motivo,NO DEFINIDO,2026,2,2026-02,22,19,15.8
+Motivo,NO DEFINIDO,2026,3,2026-03,14,11,27.3
+Motivo,NO DEFINIDO,2026,4,2026-04,12,12,0.0
+Motivo,NO DEFINIDO,2026,5,2026-05,17,6,183.3
+Motivo,NO DEFINIDO,2026,6,2026-06,14,13,7.7
+Motivo,NO DEFINIDO,2026,7,2026-07,20,13,53.8
+Motivo,NO DEFINIDO,2026,8,2026-08,12,20,-40.0
+Motivo,NO DEFINIDO,2026,9,2026-09,11,14,-21.4
+Motivo,Negocios,2024,10,2024-10,491,,
+Motivo,Negocios,2024,11,2024-11,596,,
+Motivo,Negocios,2024,12,2024-12,680,,
+Motivo,Negocios,2025,1,2025-01,716,,
+Motivo,Negocios,2025,2,2025-02,639,,
+Motivo,Negocios,2025,3,2025-03,515,,
+Motivo,Negocios,2025,4,2025-04,562,,
+Motivo,Negocios,2025,5,2025-05,586,,
+Motivo,Negocios,2025,6,2025-06,479,,
+Motivo,Negocios,2025,7,2025-07,710,,
+Motivo,Negocios,2025,8,2025-08,593,,
+Motivo,Negocios,2025,9,2025-09,548,,
+Motivo,Negocios,2025,10,2025-10,692,491,40.9
+Motivo,Negocios,2025,11,2025-11,627,596,5.2
+Motivo,Negocios,2025,12,2025-12,815,680,19.9
+Motivo,Negocios,2026,1,2026-01,726,716,1.4
+Motivo,Negocios,2026,2,2026-02,622,639,-2.7
+Motivo,Negocios,2026,3,2026-03,527,515,2.3
+Motivo,Negocios,2026,4,2026-04,556,562,-1.1
+Motivo,Negocios,2026,5,2026-05,481,586,-17.9
+Motivo,Negocios,2026,6,2026-06,539,479,12.5
+Motivo,Negocios,2026,7,2026-07,729,710,2.7
+Motivo,Negocios,2026,8,2026-08,599,593,1.0
+Motivo,Negocios,2026,9,2026-09,513,548,-6.4
+Motivo,Residencia,2024,10,2024-10,29,,
+Motivo,Residencia,2024,11,2024-11,54,,
+Motivo,Residencia,2024,12,2024-12,63,,
+Motivo,Residencia,2025,1,2025-01,74,,
+Motivo,Residencia,2025,2,2025-02,52,,
+Motivo,Residencia,2025,3,2025-03,51,,
+Motivo,Residencia,2025,4,2025-04,49,,
+Motivo,Residencia,2025,5,2025-05,34,,
+Motivo,Residencia,2025,6,2025-06,46,,
+Motivo,Residencia,2025,7,2025-07,59,,
+Motivo,Residencia,2025,8,2025-08,37,,
+Motivo,Residencia,2025,9,2025-09,47,,
+Motivo,Residencia,2025,10,2025-10,45,29,55.2
+Motivo,Residencia,2025,11,2025-11,47,54,-13.0
+Motivo,Residencia,2025,12,2025-12,58,63,-7.9
+Motivo,Residencia,2026,1,2026-01,45,74,-39.2
+Motivo,Residencia,2026,2,2026-02,57,52,9.6
+Motivo,Residencia,2026,3,2026-03,61,51,19.6
+Motivo,Residencia,2026,4,2026-04,55,49,12.2
+Motivo,Residencia,2026,5,2026-05,52,34,52.9
+Motivo,Residencia,2026,6,2026-06,48,46,4.3
+Motivo,Residencia,2026,7,2026-07,50,59,-15.3
+Motivo,Residencia,2026,8,2026-08,45,37,21.6
+Motivo,Residencia,2026,9,2026-09,47,47,0.0
+Motivo,Trabajo,2024,10,2024-10,264,,
+Motivo,Trabajo,2024,11,2024-11,320,,
+Motivo,Trabajo,2024,12,2024-12,461,,
+Motivo,Trabajo,2025,1,2025-01,423,,
+Motivo,Trabajo,2025,2,2025-02,336,,
+Motivo,Trabajo,2025,3,2025-03,344,,
+Motivo,Trabajo,2025,4,2025-04,341,,
+Motivo,Trabajo,2025,5,2025-05,324,,
+Motivo,Trabajo,2025,6,2025-06,266,,
+Motivo,Trabajo,2025,7,2025-07,321,,
+Motivo,Trabajo,2025,8,2025-08,338,,
+Motivo,Trabajo,2025,9,2025-09,297,,
+Motivo,Trabajo,2025,10,2025-10,388,264,47.0
+Motivo,Trabajo,2025,11,2025-11,326,320,1.9
+Motivo,Trabajo,2025,12,2025-12,337,461,-26.9
+Motivo,Trabajo,2026,1,2026-01,508,423,20.1
+Motivo,Trabajo,2026,2,2026-02,411,336,22.3
+Motivo,Trabajo,2026,3,2026-03,297,344,-13.7
+Motivo,Trabajo,2026,4,2026-04,330,341,-3.2
+Motivo,Trabajo,2026,5,2026-05,327,324,0.9
+Motivo,Trabajo,2026,6,2026-06,294,266,10.5
+Motivo,Trabajo,2026,7,2026-07,359,321,11.8
+Motivo,Trabajo,2026,8,2026-08,328,338,-3.0
+Motivo,Trabajo,2026,9,2026-09,310,297,4.4
+Motivo,Tránsito,2024,10,2024-10,95,,
+Motivo,Tránsito,2024,11,2024-11,75,,
+Motivo,Tránsito,2024,12,2024-12,135,,
+Motivo,Tránsito,2025,1,2025-01,160,,
+Motivo,Tránsito,2025,2,2025-02,118,,
+Motivo,Tránsito,2025,3,2025-03,64,,
+Motivo,Tránsito,2025,4,2025-04,96,,
+Motivo,Tránsito,2025,5,2025-05,104,,
+Motivo,Tránsito,2025,6,2025-06,94,,
+Motivo,Tránsito,2025,7,2025-07,116,,
+Motivo,Tránsito,2025,8,2025-08,91,,
+Motivo,Tránsito,2025,9,2025-09,85,,
+Motivo,Tránsito,2025,10,2025-10,103,95,8.4
+Motivo,Tránsito,2025,11,2025-11,92,75,22.7
+Motivo,Tránsito,2025,12,2025-12,151,135,11.9
+Motivo,Tránsito,2026,1,2026-01,128,160,-20.0
+Motivo,Tránsito,2026,2,2026-02,116,118,-1.7
+Motivo,Tránsito,2026,3,2026-03,91,64,42.2
+Motivo,Tránsito,2026,4,2026-04,93,96,-3.1
+Motivo,Tránsito,2026,5,2026-05,105,104,1.0
+Motivo,Tránsito,2026,6,2026-06,129,94,37.2
+Motivo,Tránsito,2026,7,2026-07,121,116,4.3
+Motivo,Tránsito,2026,8,2026-08,117,91,28.6
+Motivo,Tránsito,2026,9,2026-09,91,85,7.1
+Motivo,Turismo,2024,10,2024-10,739,,
+Motivo,Turismo,2024,11,2024-11,829,,
+Motivo,Turismo,2024,12,2024-12,1142,,
+Motivo,Turismo,2025,1,2025-01,1209,,
+Motivo,Turismo,2025,2,2025-02,917,,
+Motivo,Turismo,2025,3,2025-03,834,,
+Motivo,Turismo,2025,4,2025-04,832,,
+Motivo,Turismo,2025,5,2025-05,835,,
+Motivo,Turismo,2025,6,2025-06,800,,
+Motivo,Turismo,2025,7,2025-07,1010,,
+Motivo,Turismo,2025,8,2025-08,859,,
+Motivo,Turismo,2025,9,2025-09,780,,
+Motivo,Turismo,2025,10,2025-10,900,739,21.8
+Motivo,Turismo,2025,11,2025-11,948,829,14.4
+Motivo,Turismo,2025,12,2025-12,1180,1142,3.3
+Motivo,Turismo,2026,1,2026-01,1224,1209,1.2
+Motivo,Turismo,2026,2,2026-02,1065,917,16.1
+Motivo,Turismo,2026,3,2026-03,879,834,5.4
+Motivo,Turismo,2026,4,2026-04,895,832,7.6
+Motivo,Turismo,2026,5,2026-05,933,835,11.7
+Motivo,Turismo,2026,6,2026-06,909,800,13.6
+Motivo,Turismo,2026,7,2026-07,1106,1010,9.5
+Motivo,Turismo,2026,8,2026-08,973,859,13.3
+Motivo,Turismo,2026,9,2026-09,926,780,18.7
+Región,América del Norte,2024,10,2024-10,33,,
+Región,América del Norte,2024,11,2024-11,51,,
+Región,América del Norte,2024,12,2024-12,55,,
+Región,América del Norte,2025,1,2025-01,41,,
+Región,América del Norte,2025,2,2025-02,39,,
+Región,América del Norte,2025,3,2025-03,37,,
+Región,América del Norte,2025,4,2025-04,25,,
+Región,América del Norte,2025,5,2025-05,38,,
+Región,América del Norte,2025,6,2025-06,40,,
+Región,América del Norte,2025,7,2025-07,64,,
+Región,América del Norte,2025,8,2025-08,32,,
+Región,América del Norte,2025,9,2025-09,32,,
+Región,América del Norte,2025,10,2025-10,31,33,-6.1
+Región,América del Norte,2025,11,2025-11,42,51,-17.6
+Región,América del Norte,2025,12,2025-12,64,55,16.4
+Región,América del Norte,2026,1,2026-01,60,41,46.3
+Región,América del Norte,2026,2,2026-02,60,39,53.8
+Región,América del Norte,2026,3,2026-03,41,37,10.8
+Región,América del Norte,2026,4,2026-04,32,25,28.0
+Región,América del Norte,2026,5,2026-05,29,38,-23.7
+Región,América del Norte,2026,6,2026-06,37,40,-7.5
+Región,América del Norte,2026,7,2026-07,59,64,-7.8
+Región,América del Norte,2026,8,2026-08,45,32,40.6
+Región,América del Norte,2026,9,2026-09,27,32,-15.6
+Región,América del Sur,2024,10,2024-10,1466,,
+Región,América del Sur,2024,11,2024-11,1708,,
+Región,América del Sur,2024,12,2024-12,2262,,
+Región,América del Sur,2025,1,2025-01,2389,,
+Región,América del Sur,2025,2,2025-02,1933,,
+Región,América del Sur,2025,3,2025-03,1675,,
+Región,América del Sur,2025,4,2025-04,1763,,
+Región,América del Sur,2025,5,2025-05,1708,,
+Región,América del Sur,2025,6,2025-06,1548,,
+Región,América del Sur,2025,7,2025-07,2055,,
+Región,América del Sur,2025,8,2025-08,1784,,
+Región,América del Sur,2025,9,2025-09,1644,,
+Región,América del Sur,2025,10,2025-10,1981,1466,35.1
+Región,América del Sur,2025,11,2025-11,1902,1708,11.4
+Región,América del Sur,2025,12,2025-12,2344,2262,3.6
+Región,América del Sur,2026,1,2026-01,2441,2389,2.2
+Región,América del Sur,2026,2,2026-02,2095,1933,8.4
+Región,América del Sur,2026,3,2026-03,1717,1675,2.5
+Región,América del Sur,2026,4,2026-04,1802,1763,2.2
+Región,América del Sur,2026,5,2026-05,1758,1708,2.9
+Región,América del Sur,2026,6,2026-06,1753,1548,13.2
+Región,América del Sur,2026,7,2026-07,2162,2055,5.2
+Región,América del Sur,2026,8,2026-08,1887,1784,5.8
+Región,América del Sur,2026,9,2026-09,1707,1644,3.8
+Región,Asia,2024,10,2024-10,82,,
+Región,Asia,2024,11,2024-11,72,,
+Región,Asia,2024,12,2024-12,104,,
+Región,Asia,2025,1,2025-01,78,,
+Región,Asia,2025,2,2025-02,58,,
+Región,Asia,2025,3,2025-03,64,,
+Región,Asia,2025,4,2025-04,68,,
+Región,Asia,2025,5,2025-05,67,,
+Región,Asia,2025,6,2025-06,43,,
+Región,Asia,2025,7,2025-07,78,,
+Región,Asia,2025,8,2025-08,68,,
+Región,Asia,2025,9,2025-09,66,,
+Región,Asia,2025,10,2025-10,84,82,2.4
+Región,Asia,2025,11,2025-11,64,72,-11.1
+Región,Asia,2025,12,2025-12,86,104,-17.3
+Región,Asia,2026,1,2026-01,91,78,16.7
+Región,Asia,2026,2,2026-02,74,58,27.6
+Región,Asia,2026,3,2026-03,63,64,-1.6
+Región,Asia,2026,4,2026-04,66,68,-2.9
+Región,Asia,2026,5,2026-05,77,67,14.9
+Región,Asia,2026,6,2026-06,65,43,51.2
+Región,Asia,2026,7,2026-07,79,78,1.3
+Región,Asia,2026,8,2026-08,67,68,-1.5
+Región,Asia,2026,9,2026-09,91,66,37.9
+Región,Europa,2024,10,2024-10,68,,
+Región,Europa,2024,11,2024-11,85,,
+Región,Europa,2024,12,2024-12,108,,
+Región,Europa,2025,1,2025-01,120,,
+Región,Europa,2025,2,2025-02,99,,
+Región,Europa,2025,3,2025-03,76,,
+Región,Europa,2025,4,2025-04,70,,
+Región,Europa,2025,5,2025-05,85,,
+Región,Europa,2025,6,2025-06,81,,
+Región,Europa,2025,7,2025-07,74,,
+Región,Europa,2025,8,2025-08,87,,
+Región,Europa,2025,9,2025-09,64,,
+Región,Europa,2025,10,2025-10,84,68,23.5
+Región,Europa,2025,11,2025-11,91,85,7.1
+Región,Europa,2025,12,2025-12,107,108,-0.9
+Región,Europa,2026,1,2026-01,109,120,-9.2
+Región,Europa,2026,2,2026-02,99,99,0.0
+Región,Europa,2026,3,2026-03,89,76,17.1
+Región,Europa,2026,4,2026-04,86,70,22.9
+Región,Europa,2026,5,2026-05,65,85,-23.5
+Región,Europa,2026,6,2026-06,100,81,23.5
+Región,Europa,2026,7,2026-07,111,74,50.0
+Región,Europa,2026,8,2026-08,104,87,19.5
+Región,Europa,2026,9,2026-09,96,64,50.0
+Región,Medio Oriente,2024,10,2024-10,4,,
+Región,Medio Oriente,2024,11,2024-11,7,,
+Región,Medio Oriente,2024,12,2024-12,8,,
+Región,Medio Oriente,2025,1,2025-01,8,,
+Región,Medio Oriente,2025,2,2025-02,6,,
+Región,Medio Oriente,2025,3,2025-03,5,,
+Región,Medio Oriente,2025,4,2025-04,1,,
+Región,Medio Oriente,2025,5,2025-05,4,,
+Región,Medio Oriente,2025,6,2025-06,3,,
+Región,Medio Oriente,2025,7,2025-07,9,,
+Región,Medio Oriente,2025,8,2025-08,7,,
+Región,Medio Oriente,2025,9,2025-09,6,,
+Región,Medio Oriente,2025,11,2025-11,4,7,-42.9
+Región,Medio Oriente,2025,12,2025-12,4,8,-50.0
+Región,Medio Oriente,2026,1,2026-01,7,8,-12.5
+Región,Medio Oriente,2026,2,2026-02,6,6,0.0
+Región,Medio Oriente,2026,3,2026-03,8,5,60.0
+Región,Medio Oriente,2026,4,2026-04,6,1,500.0
+Región,Medio Oriente,2026,5,2026-05,11,4,175.0
+Región,Medio Oriente,2026,6,2026-06,3,3,0.0
+Región,Medio Oriente,2026,7,2026-07,4,9,-55.6
+Región,Medio Oriente,2026,8,2026-08,5,7,-28.6
+Región,Medio Oriente,2026,9,2026-09,3,6,-50.0
+Región,NO DEFINIDO,2024,10,2024-10,13,,
+Región,NO DEFINIDO,2024,11,2024-11,13,,
+Región,NO DEFINIDO,2024,12,2024-12,16,,
+Región,NO DEFINIDO,2025,1,2025-01,12,,
+Región,NO DEFINIDO,2025,2,2025-02,11,,
+Región,NO DEFINIDO,2025,3,2025-03,9,,
+Región,NO DEFINIDO,2025,4,2025-04,12,,
+Región,NO DEFINIDO,2025,5,2025-05,12,,
+Región,NO DEFINIDO,2025,6,2025-06,11,,
+Región,NO DEFINIDO,2025,7,2025-07,10,,
+Región,NO DEFINIDO,2025,8,2025-08,15,,
+Región,NO DEFINIDO,2025,9,2025-09,12,,
+Región,NO DEFINIDO,2025,10,2025-10,7,13,-46.2
+Región,NO DEFINIDO,2025,11,2025-11,8,13,-38.5
+Región,NO DEFINIDO,2025,12,2025-12,11,16,-31.3
+Región,NO DEFINIDO,2026,1,2026-01,16,12,33.3
+Región,NO DEFINIDO,2026,2,2026-02,14,11,27.3
+Región,NO DEFINIDO,2026,3,2026-03,12,9,33.3
+Región,NO DEFINIDO,2026,4,2026-04,8,12,-33.3
+Región,NO DEFINIDO,2026,5,2026-05,14,12,16.7
+Región,NO DEFINIDO,2026,6,2026-06,15,11,36.4
+Región,NO DEFINIDO,2026,7,2026-07,19,10,90.0
+Región,NO DEFINIDO,2026,8,2026-08,13,15,-13.3
+Región,NO DEFINIDO,2026,9,2026-09,12,12,0.0
+Región,Oceanía,2024,10,2024-10,3,,
+Región,Oceanía,2024,11,2024-11,7,,
+Región,Oceanía,2024,12,2024-12,7,,
+Región,Oceanía,2025,1,2025-01,3,,
+Región,Oceanía,2025,2,2025-02,2,,
+Región,Oceanía,2025,4,2025-04,1,,
+Región,Oceanía,2025,5,2025-05,5,,
+Región,Oceanía,2025,6,2025-06,3,,
+Región,Oceanía,2025,7,2025-07,2,,
+Región,Oceanía,2025,8,2025-08,4,,
+Región,Oceanía,2025,9,2025-09,3,,
+Región,Oceanía,2025,10,2025-10,2,3,-33.3
+Región,Oceanía,2025,11,2025-11,1,7,-85.7
+Región,Oceanía,2025,12,2025-12,8,7,14.3
+Región,Oceanía,2026,1,2026-01,2,3,-33.3
+Región,Oceanía,2026,2,2026-02,6,2,200.0
+Región,Oceanía,2026,3,2026-03,1,,
+Región,Oceanía,2026,4,2026-04,1,1,0.0
+Región,Oceanía,2026,5,2026-05,8,5,60.0
+Región,Oceanía,2026,6,2026-06,4,3,33.3
+Región,Oceanía,2026,7,2026-07,7,2,250.0
+Región,Oceanía,2026,8,2026-08,3,4,-25.0
+Región,Oceanía,2026,9,2026-09,6,3,100.0
+Región,África,2024,10,2024-10,2,,
+Región,África,2024,12,2024-12,1,,
+Región,África,2025,1,2025-01,1,,
+Región,África,2025,2,2025-02,1,,
+Región,África,2025,3,2025-03,1,,
+Región,África,2025,4,2025-04,1,,
+Región,África,2025,5,2025-05,1,,
+Región,África,2025,12,2025-12,2,1,100.0
+Región,África,2026,1,2026-01,6,1,500.0
+Región,África,2026,2,2026-02,1,1,0.0
+Región,África,2026,3,2026-03,2,1,100.0
+Región,África,2026,4,2026-04,3,1,200.0
+Región,África,2026,5,2026-05,2,1,100.0
+Región,África,2026,7,2026-07,1,,
+Región,África,2026,8,2026-08,5,,
+Región,África,2026,9,2026-09,2,,

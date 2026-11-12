@@ -1,0 +1,22 @@
+sk_documento,nk_documento,tipo_documento,estado_documento,es_observado
+-1,ND,NO DEFINIDO,NO DEFINIDO,false
+1,PAS-VIG,Pasaporte,VIGENTE,false
+2,PAS-VEN,Pasaporte,VENCIDO,true
+3,PAS-EXT,Pasaporte,EXTRAVIADO,true
+4,PAS-ROB,Pasaporte,ROBADO,true
+5,PAS-ADU,Pasaporte,ADULTERADO,true
+6,CIM-VIG,Cédula de identidad MERCOSUR,VIGENTE,false
+7,CIM-VEN,Cédula de identidad MERCOSUR,VENCIDO,true
+8,CIM-EXT,Cédula de identidad MERCOSUR,EXTRAVIADO,true
+9,CIM-ROB,Cédula de identidad MERCOSUR,ROBADO,true
+10,CIM-ADU,Cédula de identidad MERCOSUR,ADULTERADO,true
+11,CIP-VIG,Cédula de identidad paraguaya,VIGENTE,false
+12,CIP-VEN,Cédula de identidad paraguaya,VENCIDO,true
+13,CIP-EXT,Cédula de identidad paraguaya,EXTRAVIADO,true
+14,CIP-ROB,Cédula de identidad paraguaya,ROBADO,true
+15,CIP-ADU,Cédula de identidad paraguaya,ADULTERADO,true
+16,DVE-VIG,Documento de viaje de emergencia,VIGENTE,false
+17,DVE-VEN,Documento de viaje de emergencia,VENCIDO,true
+18,DVE-EXT,Documento de viaje de emergencia,EXTRAVIADO,true
+19,DVE-ROB,Documento de viaje de emergencia,ROBADO,true
+20,DVE-ADU,Documento de viaje de emergencia,ADULTERADO,true

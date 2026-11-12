@@ -28,7 +28,9 @@ Constelación de dos tablas de hechos con cinco dimensiones conformadas:
 fuentes/                              CSV, JSON y Excel con defectos deliberados
 generador/generar_datos_oaaf.py       Genera las fuentes (semilla fija 22891)
 etl/                                  ETL: staging, perfilado, transformación, carga, controles
-docs/                                 Diagramas, matriz de bus, diccionario e informes
+olap/70_consultas_olap.sql            Vistas OLAP de las preguntas P1 a P7
+powerbi/                              Exportación a CSV y tablero de Power BI
+docs/                                 Acta, diagramas, matriz de bus, diccionario e informes
 ```
 
 ## Cómo ejecutarlo
@@ -37,6 +39,10 @@ docs/                                 Diagramas, matriz de bus, diccionario e in
 2. Ejecutar `01_ddl_dw_oaaf.sql` y `02_carga_dim_tiempo_y_catalogos.sql`.
 3. Ejecutar el ETL: los scripts de `etl/` en orden (10 a 60) desde DBeaver, o todo junto con
    `pip install duckdb pandas openpyxl` y `python etl/etl_oaaf.py` (con DBeaver desconectado).
+4. Ejecutar `olap/70_consultas_olap.sql` para crear las vistas OLAP.
+5. Crear la carpeta `powerbi/datos` y ejecutar `powerbi/80_exportar_powerbi.sql`.
+6. Abrir `powerbi/tablero_oaaf_monitoreo.pbix` en Power BI Desktop. Para ver el mapa: Archivo → Opciones →
+   Seguridad → "Usar objetos visuales de Mapa y Mapa coroplético".
 
 La base `.duckdb` no se sube al repositorio: se reconstruye con los scripts.
 
@@ -46,6 +52,15 @@ La base `.duckdb` no se sube al repositorio: se reconstruye con los scripts.
 | --- | --- | --- |
 | H1 | Acta de definición de alcance | Entregado |
 | H2 | Modelo dimensional, DDL y carga inicial en staging | Entregado |
-| H3 | Dataset sintético y ETL completo | En curso |
-| — | Consultas OLAP (P1 a P7) | Pendiente |
-| — | Tablero en Power BI | Pendiente |
+| H3 | Dataset sintético y ETL completo (9 de 9 controles OK) | Entregado |
+| — | Consultas OLAP (P1 a P7) | Completo |
+| — | Tablero en Power BI | Completo |
+| — | Informe final | Completo |
+
+## Principales hallazgos
+
+- El Puente de la Amistad concentra el 27,0 % del flujo migratorio nacional.
+- La madrugada registra 500 alertas cada 10.000 movimientos, contra 360 a 390 en el resto del día.
+- Las alertas por documentos robados o extraviados se confirman en el 59,4 % de los casos; las de la lista de vigilancia nacional, en el 9,8 %.
+- 515 viajeros cruzaron 6 o más veces en 30 días.
+- Solo exceden el plazo autorizado los turistas que vienen por turismo (3,3 %).
